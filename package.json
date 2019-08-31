@@ -1,0 +1,20 @@
+{
+  "name": "game-process",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --respawn --clear --no-notify server.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "ts-node-dev": "^1.0.0-pre.42"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "chalk": "^2.4.2",
+    "typescript": "^3.6.2"
+  }
+}
